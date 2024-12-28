@@ -60,13 +60,30 @@ body {
     align-items: center;
 }
 
+#guide {
+    background: #E3C4A2;
+    padding: 50px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    background: #9A8899;
+    padding: 20px;
+}
+
+#card-info p {
+    font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
-    #activities-list {
+    #activities-list, #card {
 	flex-direction: row;
     }
 }
 
 img {
     width: 200px;
-    margin: 20px;
 }

@@ -60,6 +60,10 @@ body {
     align-items: center;
 }
 
+#activities-list img {
+    border-radius: 50%;
+}
+
 #guide {
     background: #E3C4A2;
     padding: 50px;

@@ -1,16 +1,51 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
+/*
+Palette:
+ROSE QUARTZ 1: #9A8899
+ROSE QUARTZ 2: #A6A2AE
+GUNMETAL:      #273542
+DESERT SAND:   #E3C4A2
+CHARCOAL:      #31394D
 */
+
+/* * { */
+/*     border: 2px dotted red; */
+/* } */
 
 body {
     margin: 0;
     text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/hateno.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero-title {
+    color: #E3C4A2;
+    text-shadow: 0px 0px 10px black;
+    font-size: 3rem;
+}
+
+#hero-subtitle {
+    color: #9A8899;
+    background: rgb(39 53 66 / 95%);
+    padding: 10px;
+    max-width: 60vw;
+    border-radius: 1rem;
+    opacity: .9;
+}
+
+#activities {
+    margin-top: 0;
+    color: #31394D;
+    background: #A6A2AE;
 }
 
 img {
